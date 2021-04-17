@@ -1,0 +1,17 @@
+footer{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+        text-align: center;
+        color: white;
+        margin:0;
+    }
+}
+@media (min-width:320px) and (max-width:599px){
+    footer{
+        height: 50px;
+    }
+}
